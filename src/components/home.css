@@ -1,0 +1,51 @@
+.homeContainer {
+  max-height: 87%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: space-around;
+}
+.homeContent {
+  width: 60%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.posterDiv {
+  max-height: 100%;
+  overflow: hidden;
+}
+.poster {
+  height: 100%;
+  margin-top: 12%;
+  margin-left: 8%;
+  border-radius: 2px solid red;
+  width: 100%;
+  transform: skewY(-12deg);
+  background-size: cover;
+  overflow: hidden;
+  opacity: 0.8;
+}
+.text {
+  padding: 6%;
+  margin-left: 1%;
+  color: white;
+}
+h1 {
+  padding-bottom: 2%;
+  font-family: "system-ui";
+}
+.signUpBtn {
+  padding: 1%;
+  margin-left: 8%;
+  width: 30%;
+  border: 2px solid white;
+  border-radius: 14px;
+  font-size: 1.2rem;
+  color: white;
+  box-shadow: 2px 3px 10px 0px #31311a;
+  background-color: black;
+}
+.signUpBtn:hover {
+  cursor: pointer;
+}

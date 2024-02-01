@@ -1,0 +1,16 @@
+.forms {
+  background-color: #d5fff1;
+  box-shadow: 1px 2px 5px #6bc05c;
+  border-radius: 8%;
+  width: 33%;
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 33%;
+  padding: 3%;
+}
+.fake {
+  border: 1px solid #0b08083d;
+  height: 140px;
+  width: 100%;
+  margin-top: 20px;
+}
